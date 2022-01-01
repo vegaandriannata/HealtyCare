@@ -11,12 +11,14 @@
     <LinearLayout
         android:background="@color/ijo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="30dp">
         <TextView
+            android:layout_marginTop="4dp"
+            android:paddingLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="HealtyCare"
+            android:textSize="18dp"
             android:textColor="@color/black"
             android:textStyle="bold" />
     </LinearLayout>
@@ -37,10 +39,71 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
+            android:textSize="25dp"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:text="REGISTER"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"/>
 </LinearLayout>
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+    <LinearLayout
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#b7b7a4"
+            android:background="@drawable/kolom"
+            android:drawableStart="@drawable/user"
+            android:hint="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:textColor="@color/black"
+            android:layout_marginTop="18dp"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#b7b7a4"
+            android:background="@drawable/kolom"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:hint="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:textColor="@color/black"
+            android:layout_marginTop="18dp"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#b7b7a4"
+            android:background="@drawable/kolom"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:hint="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="70dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <Button
+            android:textStyle="bold"
+            android:text="CREAT"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
 </LinearLayout>
